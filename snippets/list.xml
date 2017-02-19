@@ -192,7 +192,12 @@
         <blocks>
             <receiver blockID="211" id="1"/>
         </blocks>
-        <events/>
+        <events>
+            <event displayName="PreventAirJump" enabled="true" id="1" name="event-custom-block" order="1" repeats="true"/>
+            <event displayName="CheckPosition" enabled="true" id="2" name="event-custom" order="2" repeats="true"/>
+            <event displayName="Updating" enabled="true" id="3" name="step" order="3" repeats="true"/>
+            <event displayName="Created" enabled="true" id="4" name="init" order="4" repeats="true"/>
+        </events>
     </snippet>
     <snippet attachedevent="false" class="scripts.Design_179_179_WallJumping" classname="scripts.Design_179_179_WallJumping" desc="This Behavior allows the player to jump off of walls." description="This Behavior allows the player to jump off of walls." design="true" drawOrder="0" id="179" name="Wall Jumping" oid="-1" package="" shared="false" type="actor">
         <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="0"/>
@@ -288,6 +293,11 @@
         <events/>
     </snippet>
     <snippet actorid="477" attachedevent="true" class="scripts.ActorEvents_477" classname="scripts.ActorEvents_477" desc="Actor Specific Events" description="Actor Specific Events" design="true" drawOrder="0" id="222" name="ActorEvents_477" oid="-1" package="scripts." shared="false" type="actor">
+        <blocks/>
+        <events/>
+    </snippet>
+    <snippet attachedevent="false" class="scripts.Design_223_223_Double" classname="scripts.Design_223_223_Double" desc="" description="" design="true" drawOrder="0" id="223" name="Double" oid="-1" package="scripts" shared="false" type="actor">
+        <actor default="thisactor" defaultValue="thisactor" desc="" dropdown="" fullname="Actor" hidden="true" id="2147483647" name="actor" order="2147483647"/>
         <blocks/>
         <events/>
     </snippet>
